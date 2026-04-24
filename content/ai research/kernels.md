@@ -7,7 +7,7 @@ tags:
   - gpu
 ---
 
-The word *kernel* shows up everywhere in ML writing and it means at least three different things. I kept sliding between them without noticing, so here's the disambiguation I wish I'd had.
+The word *kernel* shows up everywhere in ML writing and it means at least three different things
 
 ## Math kernel
 

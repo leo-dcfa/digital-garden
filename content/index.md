@@ -6,15 +6,15 @@ tags:
   - meta
 ---
 
-A [lab notebook](https://en.wikipedia.org/wiki/Lab_notebook) is a poweful idea. It helps you record your thoughts as you try different things. I keep lab notebooks for my customer work so I can look at what I was thinking.
+I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). It helps you record your thoughts as you try different things. I keep lab notebooks for my customer work so I can look at what I was thinking.
 
-## Why write in public
+For a while now, I've been thinking of keeping a website of my learnings and different thoughts, but I don't have enough time to proper polish it. Or maybe not enough attention. I've wanted to create 'rough content' but never thought anyone would care or read.
 
-A few reasons:
+Than I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gathering-structures):
 
-- **Forcing function.** I believe letting others see and create a level of engagement will encourage me to continue
-- **Paper trail.** A PhD takes years. Having a timestamped record of what I thought when is useful.
-- **Feedback.** If any of this is useful, wrong, or adjacent to something you're working on, I'd like to hear about it. Let's nerd out!
+> "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have no right to be there. A+ side benefit."
+
+Digital garden. What a simple and beautiful idea. I love simple.
 
 ## What to expect
 
