@@ -23,7 +23,6 @@ You never have to compute $\phi$ explicitly — the "kernel trick." That's what 
 
 This is the oldest ML sense and the one the other senses (sometimes) rhyme with.
 
-
 ## Compute kernel (CUDA / GPU)
 
 On a GPU a **kernel** is a function you launch across many threads at once. You write it in CUDA, Triton, CUTLASS, Metal, ROCm — and the runtime schedules it across thousands of cores.
