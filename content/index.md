@@ -1,6 +1,5 @@
 ---
-title: A lab notebook
-description: Why a lab notebook
+title: Lab Notebooks and Digital Gardens
 date: 2026-04-22 09:00:00 +1000
 tags:
   - meta
