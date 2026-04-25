@@ -3,8 +3,6 @@ title: DishBrain on what sentience requires
 description: A quote from Kagan et al. on the two processes needed for sentient behaviour.
 date: 2026-04-24 09:00:00 +1000
 tags:
-  - reading-notes
-  - ai-safety
 ---
 
 From the [DishBrain paper](https://www.cell.com/neuron/fulltext/S0896-6273(22)00806-6) (Kagan et al., 2022) — the one where cultured neurons learned to play Pong:

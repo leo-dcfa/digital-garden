@@ -3,7 +3,6 @@ title: Encoders and Decoders in LLMs
 description:
 date: 2026-04-22 19:00:00 +1000
 tags:
-  - basics
 ---
 Basics again.
 

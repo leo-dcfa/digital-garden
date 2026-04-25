@@ -2,9 +2,6 @@
 title: Attention Kernels
 description: What "attention kernel" means, why the naive version is slow, and how FlashAttention fixes it.
 date: 2026-04-24 08:00:00 +1000
-tags:
-  - basics
-  - gpu
 ---
 
 Every time I read a paper or a model release post, the phrase *attention kernel* shows up. FlashAttention, PagedAttention, fused attention, "we wrote a custom kernel for this." I want to pin down what the word *kernel* is doing here, because it actually means two different things depending on who is talking.

@@ -2,7 +2,6 @@
 title: Lab Notebooks and Digital Gardens
 date: 2026-04-22 09:00:00 +1000
 tags:
-  - meta
 ---
 
 I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). It helps you record your thoughts as you try different things. I keep lab notebooks for my customer work so I can look at what I was thinking.

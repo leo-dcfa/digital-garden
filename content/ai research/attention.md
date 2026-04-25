@@ -3,7 +3,6 @@ title: Attention
 description:
 date: 2026-04-24 08:00:00 +1000
 tags:
-  - basics
 ---
 
 Softmax takes a vector of attention scores and turns it into a probability distribution. Every token gets some weight — even the ones the model doesn't really care about. The exponential never quite goes to zero.
