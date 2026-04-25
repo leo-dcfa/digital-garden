@@ -1,5 +1,5 @@
 ---
-title: DishBrain on what sentience requires
+title: DishBrain - on sentience
 description: A quote from Kagan et al. on the two processes needed for sentient behaviour.
 date: 2026-04-24 09:00:00 +1000
 tags:

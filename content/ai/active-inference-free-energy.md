@@ -3,8 +3,6 @@ title: Active Inference and Free Energy
 description:
 date: 2026-04-23 06:00:00 +1000
 tags:
-  - basics
-  - ai-safety
 ---
 
 A handful of terms that keep coming up in AI safety research. Some are new to me, some aren't — I'm writing them down anyway. Repetition is helpful.
