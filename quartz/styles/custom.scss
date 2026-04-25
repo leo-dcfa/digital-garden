@@ -1,3 +1,62 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// --- Azul Labs brand polish ---------------------------------------------------
+// Mirrors azl.au: Fraunces serif headings with italic em accents in the brand
+// blue, DM Sans body, cream/midnight surfaces, generous line-height.
+
+body {
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings: lighter weight, tighter tracking, italic <em> in brand blue
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  letter-spacing: -0.015em;
+
+  em {
+    font-style: italic;
+    color: var(--secondary);
+  }
+}
+
+article > h1:first-child,
+.article-title {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+// Section labels (eyebrow text style from azl.au)
+.section-label,
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+// Inline code chip — match azl.au tag pill colour
+code {
+  background: var(--lightgray);
+  color: var(--secondary);
+}
+
+// Blockquote — switch to subtle blue-tinted left rule
+blockquote {
+  border-left-color: var(--secondary);
+  background: var(--highlight);
+  padding: 0.5rem 1rem;
+  border-radius: 0 6px 6px 0;
+}
+
+// Internal wiki-links: softer brand-blue chip background
+a.internal {
+  background-color: var(--highlight);
+}

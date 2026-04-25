@@ -1,5 +1,5 @@
 ---
-title: Lab Notebooks and Digital Gardens
+title: Perpetually Incomplete
 date: 2026-04-22 09:00:00 +1000
 tags:
 ---
@@ -12,7 +12,7 @@ Than I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gat
 
 > "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have no right to be there. A+ side benefit."
 
-Digital garden. What a simple and beautiful idea. I love simple.
+Digital garden. What a simple and beautiful idea. I love simple. Learning is perpetually incomplete.
 
 ## What to expect
 

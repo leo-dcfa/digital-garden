@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Fraunces",
+        body: "DM Sans",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FAF8F5", // cream — page background
+          lightgray: "#E8F1FA", // blue-100 — borders, dividers, code chip bg
+          gray: "#94A3B8", // muted slate
+          darkgray: "#4A5568", // slate — body copy
+          dark: "#1A202C", // midnight — headings
+          secondary: "#1E5AA8", // blue-700 — primary accent / links
+          tertiary: "#3B82C4", // blue-500 — link hover / accents
+          highlight: "rgba(30, 90, 168, 0.08)", // soft blue wiki-link bg
+          textHighlight: "#D4A85388", // gold marker
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#0B2545", // blue-900 — page background
+          lightgray: "#16385F", // muted blue divider
+          gray: "#5BA3D9", // blue-300 — secondary text
+          darkgray: "#E8F1FA", // blue-100 — body copy
+          dark: "#FFFFFF", // headings
+          secondary: "#5BA3D9", // blue-300 — links
+          tertiary: "#D4A853", // gold — link hover
+          highlight: "rgba(91, 163, 217, 0.12)",
+          textHighlight: "#D4A85388",
         },
       },
     },
