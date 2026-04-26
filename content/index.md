@@ -4,9 +4,11 @@ date: 2026-04-22 09:00:00 +1000
 tags:
 ---
 
-I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). Notebooks help me organise my thoughts both as a sequence of events of what I did as well as random thoughts that pop up while executing a task. I keep lab notebooks for my customer work so I can look at what I was thinking. As an individual with ADHD, I am excellent at losing my train of thought.
+I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). Notebooks help me organise my thoughts both as a sequence of events of what I did as well as random thoughts that pop up while executing a task. I keep lab notebooks for my work so I can look at what I was thinking. As an individual with ADHD, I am excellent at losing my train of thought. Notebooks keep me grounded.
 
-For a while now, I've been thinking of keeping a website of my learnings and different thoughts, but I always had an issue with it: I see authors who curate almost perfect articles. The way I experience knowledge is different — it shifts. Its topology is not static; it bends and shifts. A new insight changes the landscape. How does one maintain a website of bendable knowledge?
+Part of these notebooks become "connected notes" and they keep changing as my knowledge is updated.
+
+For a while now, I've been thinking of keeping a blog or a website with articles. But what I write is never really _finished_. Somewhat like my notebooks: notes of what I do yes, but constantly updated. The way I experience knowledge is not fixed — it shifts. Its topology is not static; it bends and shifts. A new insight changes the landscape. How does one maintain a website of bendable ever-changing knowledge?
 
 Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gathering-structures) at [Simon Willison's blog](https://simonwillison.net/):
 
