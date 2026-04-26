@@ -14,5 +14,4 @@ Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gat
 
 Digital garden. What a simple and beautiful idea. Learning is perpetually incomplete, much like a garden.
 
-
 If you want to chat about anything you see here, [leo@azl.au](mailto:leo@azl.au) is the easiest way to reach me.
