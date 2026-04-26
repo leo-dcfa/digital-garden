@@ -9,7 +9,9 @@ Softmax takes a vector of attention scores and turns it into a probability distr
 
 That's not how biological attention works. In a brain, things get dropped. Whole streams of input never make it past early filters. There's a level of "folded" or dropped attention — a hard zero, not a tiny epsilon.
 
-A more neurodivergent flavour of attention would let the model say *nothing* about most of the sequence and concentrate mass on a few tokens.
+A more adhd flavour of attention would let the model say *nothing* about most of the sequence and concentrate mass on a few tokens.
+
+Disclosure: The terms below were AI generated with guidance from me.
 
 ## Sparsemax
 

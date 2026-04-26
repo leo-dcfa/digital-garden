@@ -7,6 +7,8 @@ tags:
 
 A handful of terms that keep coming up in AI safety research. Some are new to me, some aren't — I'm writing them down anyway. Repetition is helpful.
 
+Disclosure: The terms below were AI generated.
+
 ## Core probabilistic concepts
 
 **Inference**: drawing conclusions about hidden (unobserved) variables from observed ones. In statistics, specifically: computing $p(s \mid o)$, the posterior over hidden states $s$ given observations $o$. In day-to-day ML talk, next-word prediction also gets called inference. Bad choice of words if you ask me.

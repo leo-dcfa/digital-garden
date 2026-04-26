@@ -5,6 +5,8 @@ date: 2026-04-24 10:00:00 +1000
 tags:
 ---
 
+Disclosure: This article was AI generated to help me understand what kernels are.
+
 The word *kernel* shows up everywhere in ML writing and it means at least three different things
 
 ## Math kernel
