@@ -8,7 +8,7 @@ I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_no
 
 Part of these notebooks become "connected notes" and they keep changing as my knowledge is updated.
 
-For a while now, I've been thinking of keeping a blog or a website with articles. But what I write is never really _finished_. Somewhat like my notebooks: notes of what I do yes, but constantly updated. The way I experience knowledge is not fixed — it shifts. Its topology is not static; it bends and shifts. A new insight changes the landscape. How does one maintain a website of bendable ever-changing knowledge?
+For a while now, I've been thinking of keeping a blog or a website with articles. But what I write is never really _finished_. Somewhat like my notebooks: notes of what I do yes, but constantly updated. The way I experience knowledge is not fixed — it changes. Its topology is not static; it bends and shifts. A new insight changes the landscape. How does one maintain a website of bendable ever-changing knowledge?
 
 Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gathering-structures) at [Simon Willison's blog](https://simonwillison.net/):
 
