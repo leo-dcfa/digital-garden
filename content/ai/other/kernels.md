@@ -3,6 +3,9 @@ title: Kernels
 description: The word "kernel" is wildly overloaded. Math kernels, CUDA kernels, attention kernels — what they share and what they don't.
 date: 2026-04-24 10:00:00 +1000
 tags:
+  - kernels
+  - gpu
+  - machine learning
 ---
 
 Disclosure: This article was AI generated to help me understand what kernels are.

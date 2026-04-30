@@ -1,8 +1,12 @@
 ---
 title: Aftershock Creator Max with RTX 5090 on Linux [In Progress]
-description:
+description: Step-by-step guide to setting up Ubuntu 24.04 on an Aftershock Creator Max workstation with an RTX 5090 — USB prep, BIOS, drivers.
 date: 2026-04-30 14:55:29 +1000
 tags:
+  - linux
+  - ubuntu
+  - rtx 5090
+  - hardware setup
 ---
 
 This is going to be my primary research machine for training.

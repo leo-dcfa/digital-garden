@@ -1,8 +1,11 @@
 ---
 title: Attention
-description:
+description: Notes on sparse and heavy-tailed alternatives to softmax attention that produce hard zeros and better mimic biological attention.
 date: 2026-04-24 08:00:00 +1000
 tags:
+  - attention
+  - transformers
+  - machine learning
 ---
 
 Softmax takes a vector of attention scores and turns it into a probability distribution. Every token gets some weight — even the ones the model doesn't really care about. The exponential never quite goes to zero.

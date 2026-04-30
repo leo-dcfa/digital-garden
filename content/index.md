@@ -1,7 +1,11 @@
 ---
 title: Perpetually Incomplete
+description: A digital garden of perpetually incomplete notes on AI, attention, active inference, neuroscience, maths, and hardware setup.
 date: 2026-04-22 09:00:00 +1000
 tags:
+  - digital garden
+  - learning
+  - knowledge management
 ---
 
 I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). Notebooks help me organise my thoughts both as a sequence of events of what I did as well as random thoughts that pop up while executing a task. I keep lab notebooks for my work so I can look at what I was thinking. As an individual with ADHD, I am excellent at losing my train of thought. Notebooks keep me grounded.

@@ -32,6 +32,15 @@ jobs:
           TZ: Australia/Sydney
       - name: Add CNAME for custom domain
         run: echo 'garden.azl.au' > public/CNAME
+      - name: Add robots.txt
+        run: |
+          cat > public/robots.txt <<'EOF'
+          User-agent: *
+          Allow: /
+          Disallow: /maths/practice/2026-
+
+          Sitemap: https://garden.azl.au/sitemap.xml
+          EOF
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

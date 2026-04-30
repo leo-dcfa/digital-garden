@@ -2,6 +2,11 @@
 title: Attention Kernels
 description: What "attention kernel" means, why the naive version is slow, and how FlashAttention fixes it.
 date: 2026-04-24 08:00:00 +1000
+tags:
+  - attention
+  - flashattention
+  - gpu
+  - transformers
 ---
 
 Disclosure: This article was AI generated to help me understand what attention kernels are.

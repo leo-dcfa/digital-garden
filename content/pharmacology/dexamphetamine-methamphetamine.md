@@ -1,8 +1,11 @@
 ---
 title: Dextro- and methamphetamine
-description:
+description: Why methamphetamine is more potent than dextroamphetamine despite near-identical molecular structure — the n-methyl group, lipophilicity, BBB crossing.
 date: 2026-05-01 9:00:12 +1000
 tags:
+  - pharmacology
+  - amphetamines
+  - neuroscience
 ---
 I've wondendered before, why is methamphetamine an illegal drug in most countries while dextroamphetamine is legal (although with strict controls) for treating conditions like ADHD?
 
