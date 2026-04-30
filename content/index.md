@@ -10,7 +10,7 @@ Part of these notebooks become "connected notes" and they keep changing as my kn
 
 For a while now, I've been thinking of keeping a blog or a website with articles. But what I write is never really _finished_. Somewhat like my notebooks: notes of what I do yes, but constantly updated. The way I experience knowledge is not fixed — it changes. Its topology is not static; it bends and shifts. A new insight changes the landscape. How does one maintain a website of bendable ever-changing knowledge?
 
-Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gathering-structures) at [Simon Willison's blog](https://simonwillison.net/):
+Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gathering-structures) on [Simon Willison's blog](https://simonwillison.net/):
 
 > "[...] if you ever needed another reason to learn in public by digital gardening or podcasting or streaming or whathaveyou, add on that people will assume you’re more competent than you are. This will get you invites to very cool exclusive events filled with high-achieving, interesting people, even though you have no right to be there. A+ side benefit."
 
