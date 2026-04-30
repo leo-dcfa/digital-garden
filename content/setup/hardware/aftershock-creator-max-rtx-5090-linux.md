@@ -1,7 +1,7 @@
 ---
 title: Aftershock Creator Max with RTX 5090 on Linux [In Progress]
 description:
-date: 2026-04-27 19:55:29 +1000
+date: 2026-04-30 14:55:29 +1000
 tags:
 ---
 
