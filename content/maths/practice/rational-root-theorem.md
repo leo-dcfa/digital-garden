@@ -6,4 +6,4 @@ tags:
   - integral calculus
 ---
 
-![](2026-05-01.png)
+![](rational-root-theorem.png)
