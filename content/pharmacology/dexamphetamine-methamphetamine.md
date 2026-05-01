@@ -17,8 +17,8 @@ If I look at a picture of these molecules, they are basically identical except f
 
 Their molecular formula is almost the same:
 
-C₉H₁₃N - Dextroamphetamine
-C₁₀H₁₅N - Methamphetamine
+- C₉H₁₃N - Dextroamphetamine
+- C₁₀H₁₅N - Methamphetamine
 
 That extra n-methyl group is what causes methamphetamine to be so potent: it raises lipophilicity which means it methamphetamine corosses the blood-brain barrier faster, producing a shaper CNS (Central Nervous System) rise per dose. Methamphetamine is more strongly dopaminergic in the CNS, therefore it carriers higher abuse liability.
 
