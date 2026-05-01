@@ -115,7 +115,7 @@ sudo apt update
 2. Install GPU driver
 
 ```bash
-sudo apt install -y nvidia-driver-580 # apt might suggest a different driver, use that instead
+sudo apt install -y nvidia-driver-595 # apt might suggest a different driver, use that instead
 ```
 
 3. Reboot
@@ -123,3 +123,34 @@ sudo apt install -y nvidia-driver-580 # apt might suggest a different driver, us
 ```bash
 sudo reboot
 ```
+
+4. Validate installation
+
+```bash
+nvidia-smi
+```
+
+If all goes well you should see your GPU was correctly detected.
+
+I didn't.
+
+# A note on having used Macbooks for 15 years
+
+Macbooks simply work. You can transfer your data from a previous device to your macbook and everything _just works_. I spent another couple of hours figuring out why Ubuntu couldn't see my NVIDIA GPU. Eventually I figured out Secure Boot was on and I had to disable it.
+
+Feeling like an imposter right now.
+
+
+# Back to business - set up remote server
+
+I will use this computer as a research machine, mainly SSH'in from my Macbook. More... _familiar_.
+
+```bash
+sudo apt install -y openssh-server
+sudo systemctl enable --now ssh
+sudo systemctl status ssh
+```
+
+Everything green.
+
+Now get the local IP address by running `hostname -I`. Finally, from the macbook, run `ssh <username>@<workstatio-ip>` - replace username with yours and add the IP you got on the previous step.
