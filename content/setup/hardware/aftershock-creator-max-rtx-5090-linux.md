@@ -75,3 +75,51 @@ For this is going to be a dedicated research machine; as tempting as it is to tu
 ## Complete installation
 
 The rest of the installation covers timezone and whether I want to install other third party drivers, which I chose to accept so the NVIDIA drivers are all ready to go.
+
+# Ubuntu config
+
+1. Run system updates
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+2. Install essential tools
+```bash
+sudo apt install -y \
+  curl wget git \
+  build-essential \
+  vim htop tmux \
+  software-properties-common \
+  apt-transport-https \
+  ca-certificates \
+  gnupg lsb-release
+```
+
+3. Reboot to apply kernel updates
+
+```bash
+sudo reboot
+```
+
+# Install NVIDIA drivers
+
+1. Add ppa drivers repository
+
+```bash
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+```
+
+2. Install GPU driver
+
+```bash
+sudo apt install -y nvidia-driver-580 # apt might suggest a different driver, use that instead
+```
+
+3. Reboot
+
+```bash
+sudo reboot
+```
