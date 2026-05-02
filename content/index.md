@@ -1,6 +1,6 @@
 ---
 title: Perpetually Incomplete
-description: A digital garden of perpetually incomplete notes on AI, attention, active inference, neuroscience, maths, hardware setup and whatever else I'm learning
+description: A digital garden of perpetually incomplete notes on AI, attention, active inference, neuroscience, maths, hardware setup and whatever else I'm learning.
 date: 2026-04-22 09:00:00 +1000
 tags:
 ---
