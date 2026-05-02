@@ -1,14 +1,11 @@
 ---
 title: Perpetually Incomplete
-description: A digital garden of perpetually incomplete notes on AI, attention, active inference, neuroscience, maths, and hardware setup.
+description: A digital garden of perpetually incomplete notes on AI, attention, active inference, neuroscience, maths, hardware setup and whatever else I'm learning
 date: 2026-04-22 09:00:00 +1000
 tags:
-  - digital garden
-  - learning
-  - knowledge management
 ---
 
-I've been a keen creator of [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). Notebooks help me organise my thoughts both as a sequence of events of what I did as well as random thoughts that pop up while executing a task. I keep lab notebooks for my work so I can look at what I was thinking. As an individual with ADHD, I am excellent at losing my train of thought. Notebooks keep me grounded.
+I've kept many [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). Notebooks help organise my thoughts both as a sequence of events of what I did as well as random thoughts that pop up while executing a task. I keep lab notebooks for my work so I can look at what I was thinking. As an individual with ADHD, I am excellent at losing my train of thought. Notebooks keep me grounded.
 
 Part of these notebooks become "connected notes" and they keep changing as my knowledge is updated.
 
@@ -20,4 +17,8 @@ Then I ran into this quote from [Maggie Appleton](https://maggieappleton.com/gat
 
 Digital garden. What a simple and beautiful idea. Learning is perpetually incomplete, much like a garden.
 
-If you want to chat about anything you see here, [leo@azl.au](mailto:leo@azl.au) is the easiest way to reach me.
+## What I'm growing
+
+Notes on the things I'm learning right now: AI research, calculus, local model experimentation, ADHD, parenting, neuroscience.
+
+If you want to chat about anything you see here, [leo@azl.au](mailto:leo@azl.au) is the easiest way to find me.
