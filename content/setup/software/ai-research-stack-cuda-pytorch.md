@@ -1,5 +1,5 @@
 ---
-title: AI Research Stack - CUDA / PyTorch [In Progress]
+title: AI Research Stack - CUDA / PyTorch
 description: Setting up the AI research software stack on Ubuntu 26.04 with an RTX 5090 — driver verification, Python environment, PyTorch with Blackwell support, and an optional CUDA toolkit for kernel work.
 date: 2026-05-01 15:00:00 +1000
 tags:
