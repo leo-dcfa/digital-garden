@@ -28,6 +28,13 @@ There are different types of distillation:
 3. On-policy / GKD
 4. Cross-tokenizer
 
+Neural networks usually produce class probabilities by applying a “softmax” output layer that converts
+the logit, z<sub>i</sub>, computed for each class into a probability, q<sub>i</sub>, by comparing zi with the other logits. The T represents the temperature, and the higher the T the softer the distribution will be over classes (Hinton et al., 2015).
+
+$$q_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$$
+
+The simplest way to distill knowledge in a model is by training the student model with the outputs of the teacher model with a higher T.
+
 [In Progress]
 
 # 1. Sequence-level distillation
