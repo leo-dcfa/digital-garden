@@ -32,8 +32,56 @@ $$q_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$$
 
 The simplest way to distill knowledge in a model is by training the student model with the outputs of the teacher model with a higher T.
 
-# 1. Sequence-level distillation
+Full code available on [GitHub](https://github.com/leo-dcfa/model-distillation-demo)
 
-## Reading
+## Student Distillation Script
+
+### Load data set functions:
+
+
+```python
+import json
+from pathlib import Path
+from typing import Final
+
+from datasets import Dataset
+from transformers import AutoTokenizer
+
+OUTPUT_DIR: Final[str] = "./distilled_student"
+
+
+def load_dataset_from_jsonl(path: str, tokenizer: AutoTokenizer) -> Dataset:
+    rows = []
+    with Path.open(Path(path)) as f:
+        for line in f:
+            ex = json.loads(line)
+            messages = [
+                {"role": "user", "content": ex["question"]},
+                {"role": "assistant", "content": ex["teacher_solution"]},
+            ]
+            text = tokenizer.apply_chat_template(messages, tokenize=False)
+            rows.append({"text": text})
+    return Dataset.from_list(rows)
+```
+
+- Re. message structure: we are building a fake conversation between the user and the assistant (i.e. the llm). We ask the question as the user and provide the teacher's solution to the student model
+- `tokenizer.apply_chat_template` turns:
+```
+[
+    {"role": "user", "content": "What is 17 × 23?"},
+    {"role": "assistant", "content": "17 × 23 = 391\n#### 391"},
+]
+```
+into:
+```
+<|im_start|>user
+What is 17 × 23?<|im_end|>
+<|im_start|>assistant
+17 × 23 = 391
+#### 391<|im_end|>
+```
+- tokenize=False: we want the formatted string, not token ids. The teacher is going to tokenize on its own later (with its own batching and padding logic), so we just want the string at this stage. If you set tokenize=True, you'd get back a list of integer token IDs.
+
+# Papers/Further Reading
 
 - Hinton, Vinyals & Dean (2015). *Distilling the Knowledge in a Neural Network.* The original paper.
