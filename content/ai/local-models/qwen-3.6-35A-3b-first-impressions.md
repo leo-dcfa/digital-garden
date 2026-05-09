@@ -6,8 +6,6 @@ tags:
   - local-models
 ---
 
-I enjoy being wrong.
-
 I've been running a few experiments with local models and so far, Qwen 3.6 35A-3b is my favorite. I've tried a few but I'm still not sure how to get the best performance out of it. Qwen 3.6 35A-3b was the closest I've come to a "plug-and-play" model so far.
 
 Setup:
@@ -28,4 +26,4 @@ Setup:
 
 It's a pretty fast model and it makes me re-think how much Claude Code blinded me from the local models. I've been using Claude Code since it got released and believed local models were terrible, because that's what most people say. 
 
-I was wrong. I really enjoy being wrong.
+I was pretty wrong to be honest. Great lesson at not making someone else's words my own.

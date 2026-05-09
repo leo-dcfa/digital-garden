@@ -1,12 +1,9 @@
 ---
 title: Model Distillation [In Progress]
 description: How to compress a large model into a smaller one — temperature scaling, logits, feature-level methods, and when it actually works.
-date: 2026-05-04 09:00:00 +1000
+date: 2026-05-09 10:00:00 +1000
 tags:
   - distillation
-  - model compression
-  - neural networks
-  - machine learning
 ---
 
 I keep reading about Chinese labs "attacking" frontier labs and performing "model distillation." Then very recently [Musk admitted xAI used distillation on OpenAI model's and admitted it was common practice](https://www.forbes.com.au/news/billionaires/musk-admits-distilling-openai-data-for-his-xai-heres-why-thats-controversial/).
@@ -35,11 +32,7 @@ $$q_i = \frac{\exp(z_i / T)}{\sum_j \exp(z_j / T)}$$
 
 The simplest way to distill knowledge in a model is by training the student model with the outputs of the teacher model with a higher T.
 
-[In Progress]
-
 # 1. Sequence-level distillation
-
-# 2. Sequence-level distillation
 
 ## Reading
 
