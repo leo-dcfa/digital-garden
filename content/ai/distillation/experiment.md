@@ -34,7 +34,7 @@ The simplest way to distill knowledge in a model is by training the student mode
 
 Full code available on [GitHub](https://github.com/leo-dcfa/model-distillation-demo)
 
-## Student Distillation Script
+## Student Distillation Script Notes
 
 ### Load data set functions:
 
@@ -45,12 +45,12 @@ from pathlib import Path
 from typing import Final
 
 from datasets import Dataset
-from transformers import AutoTokenizer
+from transformers import TokenizersBackend
 
 OUTPUT_DIR: Final[str] = "./distilled_student"
 
 
-def load_dataset_from_jsonl(path: str, tokenizer: AutoTokenizer) -> Dataset:
+def load_dataset_from_json(path: str, tokenizer: TokenizersBackend) -> Dataset:
     rows = []
     with Path.open(Path(path)) as f:
         for line in f:
@@ -81,7 +81,21 @@ What is 17 × 23?<|im_end|>
 #### 391<|im_end|>
 ```
 - tokenize=False: we want the formatted string, not token ids. The teacher is going to tokenize on its own later (with its own batching and padding logic), so we just want the string at this stage. If you set tokenize=True, you'd get back a list of integer token IDs.
+- TokenizersBackend: base class for Rust (i.e) tokenizers. Implementation doing the tokenization work under the hood.
+
+```python
+def main():
+    print(f"Loading student: {STUDENT_MODEL}")
+    tokenizer = AutoTokenizer.from_pretrained(STUDENT_MODEL)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+```
+- This loads the tokenizer that was bundled with whichever model STUDENT_MODEL points to. The default is "Qwen/Qwen2.5-0.5B".
+- `from_pretrained` looks first in the local cache (~/.cache/huggingface/hub/). If it finds the model's tokenizer files there, it loads them. If not, it downloads them from Hugging Face Hub.
+- Padding: when you train a language model in batches, each batch contains multiple sequences of tokens. Sequences have different lengths and PyTorch requires uniform shapes. We add padding as a standard solution to fill token sequences to match the batch expected length.
+- The `eos_token` is a special otken indicating the sequence is over. Examples: `<|endoftext|>` or `<|im_end|>`.
+- Without a padtoken we hit a runtime error during training
 
 # Papers/Further Reading
 
-- Hinton, Vinyals & Dean (2015). *Distilling the Knowledge in a Neural Network.* The original paper.
+- Hinton, Vinyals & Dean (2015) - Distilling the Knowledge in a Neural Network. (Original paper.)
