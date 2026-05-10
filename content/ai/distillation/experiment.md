@@ -96,6 +96,20 @@ def main():
 - The `eos_token` is a special otken indicating the sequence is over. Examples: `<|endoftext|>` or `<|im_end|>`.
 - Without a padtoken we hit a runtime error during training
 
+```
+model = AutoModelForCausalLM.from_pretrained(
+        STUDENT_MODEL,
+        torch_dtype=torch.bfloat16,
+        device_map="auto",
+    )
+```
+- Here we init the model weights
+  - Weights are loaded in 16-bit instead of the 32-bit. This makes the model have half the memory footprint, which speeds things up.
+  - Every weight is a real value floating-point number.
+  - This is not quantization; quantization uses integers instead of floating-point numbers + metadata to map ints back to original floating-point values.
+  - Quantization is lossy
+  - device_map="auto" -> put the model on the GPU if available, otherwise use the CPU.
+
 # Papers/Further Reading
 
 - Hinton, Vinyals & Dean (2015) - Distilling the Knowledge in a Neural Network. (Original paper.)
