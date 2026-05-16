@@ -27,4 +27,4 @@ VRAM on a GPU limits the size of the model you can use on it; it holds the model
 
 ## Reference
 
-- *Inference Engineering* (April 2026).
+- [*Inference Engineering*](https://www.baseten.co/inference-engineering/), Baseten (April 2026).
