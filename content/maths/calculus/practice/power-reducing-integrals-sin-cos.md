@@ -5,4 +5,4 @@ date: 2026-05-18 09:00:00 +1000
 tags:
 ---
 
-![](2026-05-18.png)
+![](power-reducing-integrals-sin-cos.png)
