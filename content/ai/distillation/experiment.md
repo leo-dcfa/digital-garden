@@ -1,7 +1,7 @@
 ---
 title: Model Distillation [In Progress]
 description: How to compress a large model into a smaller one — temperature scaling, logits, feature-level methods, and when it actually works.
-date: 2026-05-09 10:00:00 +1000
+date: 2026-05-18 10:00:00 +1000
 tags:
   - distillation
 ---
