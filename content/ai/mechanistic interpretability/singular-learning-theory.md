@@ -1,5 +1,5 @@
 ---
-title: Singular Learning Theory
+title: Singular Learning Theory Basics
 description: 
 date: 2026-05-24 12:00:00 +1000
 draft: true
