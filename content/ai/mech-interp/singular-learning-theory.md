@@ -2,7 +2,7 @@
 title: Singular Learning Theory Basics
 description: 
 date: 2026-05-25 12:00:00 +1000
-draft: true
+draft: false
 tags:
   - mechanistic interpretability
   - machine learning
