@@ -18,7 +18,7 @@ tags:
 - When executing a task, attention is highly influenced by history (working memory) and context. This is not a feature of LLMs alone.
 - Since working memory is limited, the brain has to dynamically select which parts of the input that are relevant for the task at hand.
 - Evidence suggests attention in memory encoding is strong (Aly and Truke-Browne, 2017)
-- Memory degrades when ndividuals executing a given main goal while trying to engage on a secondary task 
+- Memory degrades when individuals execute a main task while trying to engage on a secondary task 
 
 ### References
 
