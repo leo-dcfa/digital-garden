@@ -2,8 +2,10 @@
 title: "Does a vibe leak? Fine-tuning a model on an attitude it never states"
 date: 2026-06-15
 tags: [interpretability, alignment, fine-tuning, safety]
-draft: true
+draft: false
 ---
+
+[link-to-repo](https://github.com/leo-dcfa/ai-latent-bias-transfer/tree/main)
 
 When you fine-tune a language model, you check *what's in the data*. You scan for the topics
 you don't want, the facts you don't trust, the labels that might be wrong. What you don't
