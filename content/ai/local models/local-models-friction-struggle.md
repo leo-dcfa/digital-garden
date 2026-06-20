@@ -39,7 +39,7 @@ Local models need a lot more steering. I find myself thinking harder about a sol
 
 I honestly do not remember where I read or heard this, but once I saw a comparison between friction and struggle. Struggle and friction are often mixed together when they are two separate things. In the context of work, struggle is the internal battle to figure out what you should do. Friction is the external drag that keeps you from doing it. As an engineer, struggle is figuring out what feature to build, what features to remove, when to say no. Friction is your CI pipeline that takes too long, the flaky tests, the opinionated team member who throws a mini tantrum because you asked them to fix a bad implementation.
 
-With AI, the boundaries between friction and struggle become harder to see. Frontier models can make both of them disappear. Local LLMs take a substantial amount of the friction away, albeit not all of it. That is a small price to pay considering you keep all the struggle to yourself. By their very nature, you cannot let them rip. Whereas working with frontier models, you can offload the friction and the struggle, build whatever and it almost always works.
+With AI, the boundaries between friction and struggle become harder to see. Frontier models can make both disappear: you offload the friction and the struggle, build whatever, and it almost always works. Local LLMs are different: by their nature you can't let them rip. They take a substantial amount of the friction away, but they leave the struggle entirely with you. The struggle is the point.
 
 # Engineering excellence
 
