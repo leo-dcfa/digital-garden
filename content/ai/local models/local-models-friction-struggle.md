@@ -1,5 +1,5 @@
 ---
-title: Local Models, friction and struggle
+title: Local Models, Friction and Struggle
 date: 2026-06-20 09:00:00 +1000
 tags:
   - local-models
