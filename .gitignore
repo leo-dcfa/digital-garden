@@ -9,3 +9,9 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Global gitignore excludes .claude/; re-include shareable project skills
+# while keeping personal settings (settings.local.json) ignored.
+!.claude/
+.claude/*
+!.claude/skills/
