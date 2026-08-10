@@ -15,3 +15,6 @@ replit.nix
 !.claude/
 .claude/*
 !.claude/skills/
+
+# Global gitignore excludes AGENTS.md; re-include it for this repo.
+!AGENTS.md
